@@ -40,7 +40,9 @@ fknm = Extension(
     include_dirs=["./roboticstoolbox/core/", numpy.get_include()],
 )
 
+
 setup(
     ext_modules=[frne, fknm],
     package_data={"roboticstoolbox": extra_files},
 )
+

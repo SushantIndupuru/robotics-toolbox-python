@@ -44,3 +44,4 @@ setup(
     ext_modules=[frne, fknm],
     package_data={"roboticstoolbox": extra_files},
 )
+
